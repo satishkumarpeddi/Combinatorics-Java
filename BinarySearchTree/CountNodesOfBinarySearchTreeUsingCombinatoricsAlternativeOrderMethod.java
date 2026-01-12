@@ -15,7 +15,7 @@ public class CountNodesOfBinarySearchTreeUsingCombinatoricsAlternativeOrderMetho
         return dp[n];
     }
     public static void main(String[] agrs){
-        int n = 3;
+        int n = 10;
         System.out.println("The total number of Binary Search Trees are possible with n nodes :"+countBST(n));
     }
 }
